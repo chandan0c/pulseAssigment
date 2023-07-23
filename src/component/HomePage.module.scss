@@ -1,0 +1,149 @@
+$custom-color1: #e71a73;
+
+$custom-color2: #272c33;
+
+$custom-color3: #f0f0f0;
+
+$custom-color4: #666666;
+
+$header-textColor: #222222;
+$post-text-color: #333333;
+$icon-color: #3fbcf5;
+
+.profileSize {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+}
+.smallProfileSIze {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.followersListbtn {
+  background-color: $custom-color3;
+  color: $custom-color2;
+  border-radius: 100px;
+  padding: 8px;
+  font: normal normal medium 11px/13px Helvetica Neue;
+  letter-spacing: 0px;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.themeButton1 {
+  color: $custom-color3;
+  background: $custom-color2;
+  border-radius: 100px;
+  opacity: 1;
+  padding: 3px 15px;
+}
+.themeButton1:hover {
+  color: $custom-color2;
+  background: $custom-color3;
+}
+.themeButton2:hover {
+  color: white;
+  background: $custom-color1;
+  border: 1px solid white;
+}
+
+.themeButton2 {
+  color: $custom-color1;
+  border: 1px solid $custom-color1;
+  border-radius: 100px;
+  background: white;
+  padding: 3px 15px;
+}
+
+.themeButton3 {
+  border: 1px solid $custom-color4;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid $custom-color4;
+  border-radius: 100px;
+  opacity: 1;
+  padding: 3px 15px;
+}
+
+.subTextContent {
+  color: $custom-color4;
+  text-align: left;
+  font: normal normal normal 13px/15px Helvetica Neue;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-top: 4px;
+}
+
+.headerText {
+  color: $header-textColor;
+}
+
+.searchContainer {
+  padding: 5px;
+  background: $custom-color3 0% 0% no-repeat padding-box;
+  opacity: 0.8;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.searchContainer > input {
+  width: 297px;
+  height: 36px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  opacity: 1;
+}
+.addButton {
+  background: $custom-color2;
+  color: $custom-color3;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.longText {
+  color: $post-text-color;
+}
+
+.tabActive {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 3px solid #f072a8;
+}
+.searchContext {
+  padding: 8px auto;
+  border-bottom: 1px solid #d9d9d9;
+}
+.descriptionBox {
+  height: 87px;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  font-size: 14px;
+}
+
+.headerAddButton {
+  color: $icon-color;
+  opacity: 1;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 0px 3px;
+  border: 1px solid $icon-color;
+}
+
+.contentHeader {
+  padding: 8px 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.cardContainer {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.timeStamp {
+  font: normal normal normal 11px/12px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #666666;
+  opacity: 1;
+}
